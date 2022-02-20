@@ -28,6 +28,20 @@ function poNajetiMysi() {
    //odstavec.style.fontWeight = "bold";
 }
 
-    function zmenaBarvy() {
-        odstavec.classList.toggle('cervenePismo');
-    }
+function zmenaBarvy() {
+    odstavec.classList.toggle('cervenePismo');
+}
+
+
+function ziskejVelikost () {
+    let element = document.getElementById("text");
+    let velikostOdstavce = window.getComputedStyle(element, null).getPropertyValue("font-size");
+    return parseInt(velikostOdstavce);
+}
+
+let velikostTextu = ziskejVelikost();
+
+function zvetsVelikost() {
+    odstavec.style.fontSize = (velikostTextu + 1) + "px";
+    velikostTextu++;
+}
