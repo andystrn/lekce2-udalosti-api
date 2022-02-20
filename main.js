@@ -1,7 +1,5 @@
 // tady je místo pro náš program
 
-console.log("Ahoj")
-
 let nadpis = document.querySelector('h1');
 nadpis.classList.add('zluty');
 nadpis.classList.remove('zluty');
@@ -44,4 +42,8 @@ let velikostTextu = ziskejVelikost();
 function zvetsVelikost() {
     odstavec.style.fontSize = (velikostTextu + 1) + "px";
     velikostTextu++;
+}
+
+function stiskKlavesy(udalost) {
+    console.log(udalost.key);
 }
