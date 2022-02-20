@@ -22,3 +22,7 @@ function zmenStyl() {
 
 let odstavec = document.querySelector('p');
 odstavec.style.fontSize = '16px';
+
+function poNajetiMysi() {
+    odstavec.classList.toggle('tucnePismo');
+}
