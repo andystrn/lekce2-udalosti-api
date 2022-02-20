@@ -47,3 +47,29 @@ function zvetsVelikost() {
 function stiskKlavesy(udalost) {
     console.log(udalost.key);
 }
+
+let audioFile = document.getElementById('zvukovaStopa'); 
+
+function startAudio() {
+    audioFile.play();
+}
+
+function pauseAudio() {
+    audioFile.pause();
+}
+
+function volumeDown() {
+    audioFile.volume = 0;
+}
+
+function volumeMiddle() {
+    audioFile.volume = 0.5;
+}
+
+function volumeMax() {
+    audioFile.volume = 1;
+}
+
+function naZacatek() {
+    audioFile.currentTime = 0;
+}

@@ -21,7 +21,16 @@
 
 	<button class="tlacitko">Čudlajs</button>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+	<audio id="zvukovaStopa" src="audio/dingdingdang.mp3" preload="auto"></audio>
+
+
+	<h2>Audio ovladač</h2>
+	<button onclick="startAudio()">Přehraj</button>
+	<button onclick="pauseAudio()">Pauzni</button>
+	<button onclick="volumeDown()">Ztišit</button>
+	<button onclick="volumeMiddle()">Hlasitost tak akorát</button>
+	<button onclick="volumeMax()">Hlasitost na maximum</button>
+	<button onclick="naZacatek()">Nastav na začátek</button>
 
 <script type="text/javascript" src="main.js"></script>
 </body>
