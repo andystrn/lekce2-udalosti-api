@@ -27,3 +27,7 @@ function poNajetiMysi() {
    odstavec.classList.toggle('tucnePismo');
    //odstavec.style.fontWeight = "bold";
 }
+
+    function zmenaBarvy() {
+        odstavec.classList.toggle('cervenePismo');
+    }
