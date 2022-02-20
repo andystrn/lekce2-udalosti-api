@@ -24,5 +24,6 @@ let odstavec = document.querySelector('p');
 odstavec.style.fontSize = '16px';
 
 function poNajetiMysi() {
-    odstavec.classList.toggle('tucnePismo');
+   odstavec.classList.toggle('tucnePismo');
+   //odstavec.style.fontWeight = "bold";
 }
