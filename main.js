@@ -19,3 +19,6 @@ function priNajetiNaCtverec() {
 function zmenStyl() {
     nadpis.classList.toggle("zeleny");
 }
+
+let odstavec = document.querySelector('p');
+odstavec.style.fontSize = '16px';
